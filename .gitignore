@@ -1,0 +1,33 @@
+# ── Secrets — NEVER commit these ──────────────────────────────
+.env
+
+# ── Telethon session — contains your login credentials ────────
+*.session
+*.session-journal
+
+# ── Runtime files ──────────────────────────────────────────────
+bot_data.db
+bot_data.db-wal
+bot_data.db-shm
+bot.log
+media_cache/
+
+# ── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── OS ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
